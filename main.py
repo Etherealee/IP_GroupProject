@@ -40,7 +40,11 @@ else:
     team1 = {"Tanker1":[100,0], "Wizard1":[100,0], "Tanker2":[100,0]}
 
 # AI Team
+name0 = random.randint(1,90)
+name2 = ("AI-",name0)
+x = random.randint(1,2)
+if x==1:
+    team2 = {"Wizard1":[100,0], "Tanker1":[100,0], "Wizard2":[100,0]}
+else:
+    team2 = {"Tanker1":[100,0], "Wizard1":[100,0], "Tanker2":[100,0]}
 
-# GamePlay
-
-# scoreboard
